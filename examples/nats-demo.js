@@ -1,10 +1,9 @@
 var Nats = require('../')
 
 var nats = new Nats({})
-nats.on('ready', function() {
-	nats.publish('foo', 'Hello World!');
-})
-var sid = nats.subscribe('foo', function(msg) {
-	console.log('Received a message: ' + msg);
-	nats.unsubscribe(sid)
+nats.subscribe('router.worker.stats', function(msg, reply, subject) {
+	console.log('Msg received on [router.worker.stats] : ', msg);
+});
+nats.subscribe('dea.*', function(msg, reply, subject) {
+	console.log('Msg received on [router.worker.stats] : ', msg);
 });
