@@ -1,6 +1,6 @@
 {
 	"name": "raft-nats",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"description": "Open Source PaaS built on Node.JS - Nats module",
 	"main": "index.js",
 	"repository": {
