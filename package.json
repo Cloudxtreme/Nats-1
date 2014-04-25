@@ -1,6 +1,6 @@
 {
 	"name": "raft-nats",
-	"version": "0.0.5",
+	"version": "0.1.1",
 	"description": "Open Source PaaS built on Node.JS - Nats module",
 	"main": "index.js",
 	"repository": {
@@ -10,7 +10,7 @@
 	"dependencies": {
 		"nats": "0.2.x"
 	},
-	"homepage": "http://raft.mangoraft.com",
-	"author": "Tim <tim.dickinson@mangoraft.com>",
+	"homepage": "http://nats.mangoraft.ca",
+	"author": "Tim <mangoraft@gmail.com>",
 	"license": "MIT"
 }
